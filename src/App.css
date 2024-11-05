@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #334d50;
+  background: linear-gradient(to right, #334d50, #cbcaa5);
+
+}
+.App {
+  text-align: center;
+  margin: 10px auto;
+  width: 900px;
+  
+}
+
+form {
+  display: inline-block;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+}
+
+form div {
+  margin: 10px;
+}
+.signUpDiv,.dashboardPageDiv,.tasksDiv {
+  background: linear-gradient(to left, #334d50, #cbcaa5);
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  width: 900px;
+}
+.signInDiv, .editProfileDiv, .leavesDiv {
+  background: linear-gradient(to left, #cbcaa5, #334d50);
+  padding: 20px;
+  text-align: center;
+  margin: 10px auto;
+  width: 900px;
+}
+.signInDiv,.signUpDiv {
+  width: 450px;
+ margin: 100px auto;
+}
+.linkButton {
+  margin: 30px;
+}
+button {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 100px;
+  height: 45px;
+  background-color:#334d50;
+  color: white;
+  border: 0px;
+  border-radius: 25px;
+}
+
+.button {
+  background-color:#334d50;
+  border: 0px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav Link {
+  color: white;
+}
+.paraPNFDiv{
+  padding: 50px;
+}
+.active {
+  background: #cbcaa5;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
